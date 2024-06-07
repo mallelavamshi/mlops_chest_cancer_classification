@@ -1,5 +1,5 @@
 import os
-from pathlib import Path
+from pathlib import Path 
 import logging
 
 logging.basicConfig(level=logging.INFO,format='[%(asctime)s]: %(message)s:')
@@ -59,6 +59,12 @@ for filepath in list_of_files:
 
     else:
         logging.info(f'{filename} already exists')
+
+## after executing this template.py file folder and files will be created
+## commit the changes to git, with following commands
+#""" 1. git add .
+ #   2. git commit -m
+ #   3. git push origin main"""
 
 
      
